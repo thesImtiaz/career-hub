@@ -1,7 +1,11 @@
+import Banner from "../Banner/Banner";
+import CategoryList from "../CategoryList/CategoryList";
+
 const Home = () => {
   return (
-    <div className="max-w-6xl mx-auto">
-      <h1>this is home page</h1>
+    <div>
+      <Banner></Banner>
+      <CategoryList></CategoryList>
     </div>
   );
 };
